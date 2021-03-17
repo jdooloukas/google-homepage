@@ -1,0 +1,9 @@
+.centerlogo {
+    margin: -70px 0 0 -120px;
+    width: 272px;
+    height: 92px;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    padding: 20px;
+}
