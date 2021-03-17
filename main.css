@@ -1,9 +1,48 @@
-.centerlogo {
-    margin: -70px 0 0 -120px;
-    width: 272px;
-    height: 92px;
-    position: absolute;
-    top: 30%;
-    left: 45%;
-    padding: 20px;
+body {
+    margin: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.nav {
+    display: flex;
+    text-decoration: none;
+}
+
+.nav li{
+    display: inline;
+    font-size: 13px;
+}
+
+.navleft {
+    flex: 1;
+    margin: 7px 0px 0px 10px;
+    padding-left: 15px;
+}
+
+.navright {
+    flex: -1;
+    margin: 7px 0px 0px 10px;
+
+}
+
+#searchbarcontainer {
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#navleft {
+    float: left;
+    width: 50%;
+}
+
+#navright {
+    float: right;
+    width: 50%;
 }
