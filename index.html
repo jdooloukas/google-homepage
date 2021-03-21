@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title>Google</title>
         <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <nav class="nav">
@@ -15,7 +16,7 @@
                 <li><a>Gmail</a></li>
                 <li><a>Images</a></li>
                 <li><a><img src="google-apps-icon-png-28.png" alt="Google Apps" style="width:15px;height:15px;"></a></li>
-                <li><a id="signin">Sign In</a></li>
+                <li><a id="signin" :hover>Sign in</a></li>
             </ul>
         </nav>
         
@@ -24,8 +25,26 @@
         </div>
 
         <div id="searchbarcontainer">
-            <input id="searchbar" type="text">
+                <input id="searchbar" type="text">
+
+
+        </div>
+
+        <div class="buttons">
+            <button class="searchbutton">Google Search</button>
+            <button class="luckybutton">I'm Feeling Lucky</button>
         </div>
     </body>
-    <footer></footer>
+    <footer class="footer">
+        <ul class="footerleft">
+            <li><a>Advertising</a></li>
+            <li><a>Business</a></li>
+            <li><a>How Search Works</a></li>
+        </ul>
+        <ul class="footerright">
+            <li><a>Privacy</a></li>
+            <li><a>Terms</a></li>
+            <li><a>Settings</a></li>
+        </ul>
+    </footer>
 </html>
